@@ -4,7 +4,10 @@
 #include "device.h"
 
 enum adc_reading {
-    ADC_JOYSTICK,
+    ADC_ROLL,
+    ADC_PITCH,
+    ADC_THROTTLE,
+    ADC_YAW,
     ADC_PA_PDET,
     ADC_MAX_DEVICES
 };
